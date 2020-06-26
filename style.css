@@ -1,0 +1,42 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  width: 3100&;
+  height: 90%;
+  position: relative;
+  z-index: 10;
+}
+
+#guess-area {
+  width: 30vw;
+  height: 28vh;
+  position: absolute;
+  bottom: 4vh;
+  right: 8vh;
+}
+
+#app {
+  height: 100%;
+}
+
+#pano {
+  height: 100%;
+}
+
+#submit {
+  position: relative;
+  z-index: 10;
+  left: 86.5%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.gm-iv-address {
+  display: none;
+}

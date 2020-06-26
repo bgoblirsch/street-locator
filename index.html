@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Street Locator</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGwdANvb6Oz4tuvAiNrAVxqLVvAHHUogc&callback=initialize&libraries=&v=weekly"
+      defer
+    ></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./app.js"></script>
+  </head>
+<body>
+  <div id="app">
+    <div id="guess-area">
+      <button id="submit" onclick="submitGuess()">Submit</button>
+      <div id="map"></div>
+    </div>
+    <div id="pano"></div>
+  </div>
+</body>
+</html>
